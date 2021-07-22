@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/book-everything/src",
+  "monorepo": true,
+  "root": "apps/book-everything",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/book-everything/tsconfig.app.json"
+  },
+  "projects": {
+    "book-everything": {
+      "type": "application",
+      "root": "apps/book-everything",
+      "entryFile": "main",
+      "sourceRoot": "apps/book-everything/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/book-everything/tsconfig.app.json"
+      }
+    },
+    "auth": {
+      "type": "application",
+      "root": "apps/auth",
+      "entryFile": "main",
+      "sourceRoot": "apps/auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/auth/tsconfig.app.json"
+      }
+    }
+  }
+}
