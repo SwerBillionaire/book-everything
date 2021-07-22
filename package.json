@@ -1,10 +1,16 @@
 {
   "name": "book-everything",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "ระบบจองทุกสิ่งทุกอย่าง จองอะไรก็ได้ built with NestJS",
+  "author": "SwerBillionaire",
+  "repository": {
+    "url": "https://github.com/SwerBillionaire/book-everything"
+  },
+  "contributors": [
+    "SwerBillionaire"
+  ],
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
